@@ -1,0 +1,16 @@
+set number
+set relativenumber
+set scrolloff=5
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+set clipboard=unnamed
+set ideajoin
+
+let mapleader=" "
+nnoremap Q :q<CR>
+
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-repeat'
