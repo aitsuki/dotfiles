@@ -1,3 +1,4 @@
+oh-my-posh init pwsh | Invoke-Expression
 New-Alias -Name open -Value explorer
 New-Alias -Name vi -Value nvim
 New-Alias -Name vim -Value nvim
