@@ -16,7 +16,6 @@ WatchConfiguration("enable")
 
 ; Ensure there is 5 workspace created on monitor 0
 EnsureWorkspaces(0, 5)
-EnsureWorkspaces(1, 5)
 
 ; Configure the invisible border dimensions
 InvisibleBorders(7, 0, 14, 7)
@@ -27,18 +26,13 @@ WorkspaceName(0, 1, "2")
 WorkspaceName(0, 2, "3")
 WorkspaceName(0, 3, "4")
 WorkspaceName(0, 4, "5")
-WorkspaceName(1, 0, "1")
-WorkspaceName(1, 1, "2")
-WorkspaceName(1, 2, "3")
-WorkspaceName(1, 3, "4")
-WorkspaceName(1, 4, "5")
 
 ; Others
 ResizeDelta("50")
 
 ; Uncomment the next two lines if you want a visual border drawn around the focused window
-ActiveWindowBorder("enable")
-ActiveWindowBorderColour("66", "165", "245", "single") ; this is a nice blue colour
+; ActiveWindowBorder("enable")
+; ActiveWindowBorderColour("66", "165", "245", "single") ; this is a nice blue colour
 
 ; Allow komorebi to start managing windows
 CompleteConfiguration()

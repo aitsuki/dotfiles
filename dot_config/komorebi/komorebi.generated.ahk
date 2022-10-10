@@ -359,9 +359,13 @@ Run, komorebic.exe float-rule exe "uTools.exe", , Hide
 Run, komorebic.exe float-rule exe "OpenVPNConnect.exe", , Hide
 
 ; wxwork
-Run, komorebic.exe manage-rule exe "WXWork.exe", , Hide
+Run, komorebic.exe float-rule exe "WXWork.exe", , Hide
+Run, komorebic.exe float-rule exe "WXWorkWeb.exe", , Hide
+Run, komorebic.exe float-rule exe "FlutterPlugins", , Hide
+Run, komorebic.exe float-rule exe "WXDrive.exe", , Hide
 
 ; Android Studio
 Run, komorebic.exe identify-object-name-change-application exe "studio64.exe", , Hide
+Run, komorebic.exe float-rule class "PopupMessageWindow", , Hide
 ; If you have disabled minimize/close to tray for this application, you can delete/comment out the next line
 Run, komorebic.exe identify-tray-application exe "studio64.exe", , Hide
