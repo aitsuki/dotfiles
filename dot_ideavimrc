@@ -6,11 +6,16 @@ set smartcase
 set incsearch
 set hlsearch
 set clipboard=unnamed
+set clipboard+=ideaput
 set ideajoin
 
 let mapleader=" "
-nnoremap Q :q<CR>
+nnoremap <leader><CR> :noh<CR>
+
+"" placeholder
+noremap <c-j> <Esc>/<++><CR>:noh<CR>"_cf>
 
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-repeat'
+Plug 'machakann/vim-highlightedyank'
+Plug 'dbakker/vim-paragraph-motion'
