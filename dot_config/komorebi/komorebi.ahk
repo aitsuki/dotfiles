@@ -6,7 +6,7 @@
 #Include %A_ScriptDir%\komorebi.generated.ahk
 
 ; Default to minimizing windows when switching workspaces
-WindowHidingBehaviour("minimize")
+WindowHidingBehaviour("hide")
 
 ; Set cross-monitor move behaviour to insert instead of swap
 CrossMonitorMoveBehaviour("insert")
