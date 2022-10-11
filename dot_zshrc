@@ -1,0 +1,14 @@
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(fzf)
+source $ZSH/oh-my-zsh.sh
+
+# neovim as default text editor
+export VISUAL=nvim
+export EDITOR=nvim
+
+# aliases
+alias vi='nvim'
+alias vim='nvim'
+alias ra='ranger'
+

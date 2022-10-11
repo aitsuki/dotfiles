@@ -1,0 +1,9 @@
+{{ if eq .chezmoi.os "darwin" }}
+.config/komorebi
+.yasb
+Documents
+{{ else if eq .chezmoi.os "linux" }}
+# linux
+{{ else }}
+# other operating system (e.g. windows)
+{{ end }}
