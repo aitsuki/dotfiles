@@ -9,6 +9,9 @@ set clipboard=unnamed
 set clipboard+=ideaput
 set ideajoin
 
+
+map ge <Action>(GotoNextError)
+
 let mapleader=" "
 nnoremap <leader><CR> :noh<CR>
 
