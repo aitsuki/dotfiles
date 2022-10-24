@@ -1,4 +1,3 @@
-oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/robbyrussel.omp.json' | Invoke-Expression
 New-Alias -Name open -Value explorer
 New-Alias -Name vi -Value nvim
 New-Alias -Name vim -Value nvim

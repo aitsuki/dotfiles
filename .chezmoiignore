@@ -6,4 +6,6 @@ Documents
 # linux
 {{ else }}
 # other operating system (e.g. windows)
+.config/ranger
+.zshrc
 {{ end }}
